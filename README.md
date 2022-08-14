@@ -16,13 +16,20 @@ mkdir backup <br />
 ./darknet detector train data/vehicle_plate.data cfg/yolov3_custom.cfg darknet53.conv.74 <br />
 Get darknet53.conv.74 file from here : wget https://pjreddie.com/media/files/darknet53.conv.74
 
+
+![My Image](chart.png)
+
 ### Predict and save outputs in results file
 mkdir results <br />
 ./darknet detector test data/vehicle_plate.data cfg/yolov3_custom.cfg backup/yolov3_custom_last.weights data/car1.jpg
 
 ### Results
 ![My Image](results/car1.jpg)
+
 ![My Image](results/car2.jpg)
+
 ![My Image](results/car3.jpg)
+
 ![My Image](results/car4.jpg)
+
 ![My Image](results/car5.jpg)
