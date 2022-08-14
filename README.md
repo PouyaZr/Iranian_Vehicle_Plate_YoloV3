@@ -35,11 +35,11 @@ mkdir results <br />
 ![My Image](results/car5.jpg)
 
 ### NOTE
-##### For training change yolov3_custom.cfg : <br />
+##### For training change yolov3_custom.cfg like this : <br />
 #Training <br />
 batch=64 <br />
 subdivisions=16 <br />
-##### For testing change yolov3_custom.cfg : <br />
+##### For testing change yolov3_custom.cfg like this : <br />
 #Testing <br />
 batch=1 <br />
 subdivisions=1 
